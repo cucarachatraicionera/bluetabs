@@ -26,8 +26,6 @@ export default function Home() {
       <Video />
       <AboutSectionTwo />
       <Testimonials />
-      
-      
       <Contact />
     </>
   );
