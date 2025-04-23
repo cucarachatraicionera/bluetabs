@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Beneficios de BluLoo Tabs"
+            paragraph="BluLoo Tabs transforma un hábito cotidiano en una solución ecológica. Estas son las razones por las que cada pastilla marca la diferencia."
             center
           />
 

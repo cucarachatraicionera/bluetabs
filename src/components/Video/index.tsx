@@ -13,20 +13,21 @@ export default function Video() {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Así funciona BluLoo Tabs"
+            paragraph="Descubre cómo una pequeña tableta puede ayudarte a ahorrar agua, mantener tu baño limpio y contribuir al planeta desde casa."
             center
             mb="80px"
           />
         </div>
+
         <div className="relative overflow-hidden">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[770px] overflow-hidden rounded-md">
                 <div className="relative aspect-77/40 items-center justify-center">
                   <Image
-                    src="/images/video/image.png"
-                    alt="video image"
+                    src="/images/video/bluloo-demo.png"
+                    alt="BluLoo Tabs demo video"
                     className="object-cover"
                     fill
                   />
@@ -51,10 +52,7 @@ export default function Video() {
             </div>
           </div>
 
-          <div className="absolute right-0 bottom-0 left-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat">
-            {/* <div className="absolute bottom-0 left-0 right-0 z-[-1] "> */}
-            {/* <img src="/images/video/shape.svg" alt="shape" className="w-full" /> */}
-          </div>
+          <div className="absolute right-0 bottom-0 left-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat" />
         </div>
       </section>
 
@@ -62,8 +60,8 @@ export default function Video() {
         isOpen={isOpen}
         onClose={() => setOpen(false)}
         channel="youtube"
-        videoId="L61p2uyiMSo"
+        videoId="L61p2uyiMSo" // Cambiar por ID del video de BluLoo
       />
     </>
   );
-};
+}
